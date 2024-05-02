@@ -2,7 +2,7 @@
 Что нужно сделать:
 
 Установите себе jenkins по инструкции из лекции или любым другим способом из официальной документации. Использовать Docker в этом задании нежелательно.
-(https://github.com/DmitriyKly/8-03-hw/blob/main/Screen/Install_jenkins.png)
+![123](https://github.com/DmitriyKly/8-03-hw/blob/main/Screen/Install_jenkins.png)
 
 Установите на машину с jenkins golang.
 Используя свой аккаунт на GitHub, сделайте себе форк репозитория. В этом же репозитории находится дополнительный материал для выполнения ДЗ.

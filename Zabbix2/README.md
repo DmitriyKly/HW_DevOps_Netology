@@ -45,7 +45,7 @@
 Требования к результату
  Прикрепите в файл README.md скриншот дашборда с названием «Задание 4»
 
-![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/Zabbix2/Screen/Task4_1.png)
+![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/Zabbix2/Screen/Task4.png)
 
 Задание 5* со звёздочкой
 Создайте карту и расположите на ней два своих хоста.

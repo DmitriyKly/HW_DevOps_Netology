@@ -16,3 +16,4 @@
 Эти задания дополнительные. Их можно не выполнять. На зачёт это не повлияет. Вы можете их выполнить, если хотите глубже разобраться в материале.
 ![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/Disaster%20recovery%20%D0%B8%20Keepalived/Screen/Task2.png)
 ![Task2_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/Disaster%20recovery%20%D0%B8%20Keepalived/Screen/Task2_2.png)
+![Task2_3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/Disaster%20recovery%20%D0%B8%20Keepalived/Screen/Task2_3.png)

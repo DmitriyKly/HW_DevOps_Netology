@@ -15,23 +15,21 @@
 Резервная копия размещается локально, в директории /tmp/backup
 На проверку направить файл crontab и скриншот с результатом работы утилиты.
 
-![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_0.png)
-![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_1.png)
-![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_2.png)
-![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_3.png)
+![Task2_0](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_0.png)
+![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_1.png)
+![Task2_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_2.png)
+![Task2_3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_3.png)
 
 Задания со звёздочкой*
 Эти задания дополнительные. Их можно не выполнять. На зачёт это не повлияет. Вы можете их выполнить, если хотите глубже разобраться в материале.
-
-
 
 Задание 3*
 Настройте ограничение на используемую пропускную способность rsync до 1 Мбит/c
 Проверьте настройку, синхронизируя большой файл между двумя серверами
 На проверку направьте команду и результат ее выполнения в виде скриншота
 
-Задание 4*
-Напишите скрипт, который будет производить инкрементное резервное копирование домашней директории пользователя с помощью rsync на другой сервер
-Скрипт должен удалять старые резервные копии (сохранять только последние 5 штук)
-Напишите скрипт управления резервными копиями, в нем можно выбрать резервную копию и данные восстановятся к состоянию на момент создания данной резервной копии.
-На проверку направьте скрипт и скриншоты, демонстрирующие его работу в различных сценариях.
+![Task3_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_2.png)
+![Task3_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_3.png)
+
+
+

@@ -28,8 +28,8 @@
 Проверьте настройку, синхронизируя большой файл между двумя серверами
 На проверку направьте команду и результат ее выполнения в виде скриншота
 
-![Task3_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_2.png)
-![Task3_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task2_3.png)
+![Task3_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task3_1.png)
+![Task3_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%B7%D0%B5%D1%80%D0%B2%D0%BD%D0%BE%D0%B5%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/Screen/Task3_2.png)
 
 
 

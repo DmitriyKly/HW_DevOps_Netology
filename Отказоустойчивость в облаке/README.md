@@ -17,11 +17,8 @@
 В качестве результата пришлите:
 
 1. Terraform Playbook.
-
-
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%82%D0%BA%D0%B0%D0%B7%D0%BE%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B5/terraform_netologia.tf
 2. Скриншот статуса балансировщика и целевой группы.
-
-
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%82%D0%BA%D0%B0%D0%B7%D0%BE%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B5/Screen/Task1.png)
 3. Скриншот страницы, которая открылась при запросе IP-адреса балансировщика.
-
-
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%82%D0%BA%D0%B0%D0%B7%D0%BE%D1%83%D1%81%D1%82%D0%BE%D0%B8%CC%86%D1%87%D0%B8%D0%B2%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D0%BA%D0%B5/Screen/Task1_1.png)

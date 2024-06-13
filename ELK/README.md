@@ -14,7 +14,7 @@
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
 
-![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task3.jpg)
+![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task3.png)
 
 Задание 4. Filebeat.
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
@@ -22,7 +22,7 @@
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
 
-![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task4.jpg)
+![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task4.png)
 
 Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.

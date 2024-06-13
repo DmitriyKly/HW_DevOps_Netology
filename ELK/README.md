@@ -22,7 +22,7 @@
 
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
 
-![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task4.png)
+![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task4_1.png)
 
 Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.

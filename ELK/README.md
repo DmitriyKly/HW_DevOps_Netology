@@ -2,24 +2,27 @@
 Установите и запустите Elasticsearch, после чего поменяйте параметр cluster_name на случайный.
 Приведите скриншот команды 'curl -X GET 'localhost:9200/_cluster/health?pretty', сделанной на сервере с установленным Elasticsearch. Где будет виден нестандартный cluster_name.
 
-![install_jenkins](https://github.com/DmitriyKly/8-03-hw/blob/main/Screen/Install_jenkins.png)
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task1.jpg)
 
 Задание 2. Kibana
 Установите и запустите Kibana.
 Приведите скриншот интерфейса Kibana на странице http://<ip вашего сервера>:5601/app/dev_tools#/console, где будет выполнен запрос GET /_cluster/health?pretty.
 
-![install_jenkins](https://github.com/DmitriyKly/8-03-hw/blob/main/Screen/Install_jenkins.png)
+![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task2.jpg)
 
 Задание 3. Logstash
 Установите и запустите Logstash и Nginx. С помощью Logstash отправьте access-лог Nginx в Elasticsearch.
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx.
 
-
+![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task3.jpg)
 
 Задание 4. Filebeat.
 Установите и запустите Filebeat. Переключите поставку логов Nginx с Logstash на Filebeat.
 
+
 Приведите скриншот интерфейса Kibana, на котором видны логи Nginx, которые были отправлены через Filebeat.
+
+![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/ELK/Screen/Task4.jpg)
 
 Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.

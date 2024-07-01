@@ -1,8 +1,7 @@
 Задание 1. Установка RabbitMQ
 Используя Vagrant или VirtualBox, создайте виртуальную машину и установите RabbitMQ. Добавьте management plug-in и зайдите в веб-интерфейс.
 Итогом выполнения домашнего задания будет приложенный скриншот веб-интерфейса RabbitMQ.
-
-
+![image](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%20RabbitMQ/screen/task1.png)
 
 Задание 2. Отправка и получение сообщений
 Используя приложенные скрипты, проведите тестовую отправку и получение сообщения. Для отправки сообщений необходимо запустить скрипт producer.py.
@@ -12,7 +11,8 @@ $ pip install pika
 В качестве решения домашнего задания приложите оба скриншота, сделанных на этапе выполнения.
 Для закрепления материала можете попробовать модифицировать скрипты, чтобы поменять название очереди и отправляемое сообщение.
 
-
+![image](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%20RabbitMQ/screen/task2.png)
+![image](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%20RabbitMQ/screen/task2_1.png)
 
 Задание 3. Подготовка HA кластера
 Используя Vagrant или VirtualBox, создайте вторую виртуальную машину и установите RabbitMQ. Добавьте в файл hosts название и IP-адрес каждой машины, чтобы машины могли видеть друг друга по имени.
@@ -28,11 +28,13 @@ $ cat /etc/hosts
 
 В качестве решения домашнего задания приложите скриншоты из веб-интерфейса с информацией о доступных нодах в кластере и включённой политикой.
 
+![image](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%20RabbitMQ/screen/task3.png)
+
 Также приложите вывод команды с двух нод:
-
 $ rabbitmqctl cluster_status
-Для закрепления материала снова запустите скрипт producer.py и приложите скриншот выполнения команды на каждой из нод:
 
+![image](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%20RabbitMQ/screen/task3_1.png)
+![image](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%9E%D1%87%D0%B5%D1%80%D0%B5%D0%B4%D0%B8%20RabbitMQ/screen/task3_2.png)
 
 
 

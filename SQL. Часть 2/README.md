@@ -5,19 +5,19 @@
 город нахождения магазина;
 количество пользователей, закреплённых в этом магазине.
 
-![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task_1.png)
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202/screen/Task1.png)
 
 Задание 2
 Получите количество фильмов, продолжительность которых больше средней продолжительности всех фильмов.
 
 в таблице film - нет колонки с duration, только с rental duration, на основе ее посчитал
 
-![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task_2.png)
+![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202/screen/Task2.png)
 
 Задание 3
 Получите информацию, за какой месяц была получена наибольшая сумма платежей, и добавьте информацию по количеству аренд за этот месяц.
 
-![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task_3.png)
+![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202/screen/Task3.png)
 
 Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
@@ -30,4 +30,4 @@
 Задание 5*
 Найдите фильмы, которые ни разу не брали в аренду.
 
-![Task5](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task_5.png)
+![Task4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/SQL.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202/screen/Task5.png)

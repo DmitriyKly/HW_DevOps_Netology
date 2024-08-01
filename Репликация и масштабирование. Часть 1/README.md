@@ -12,7 +12,7 @@ Master-Master - Каждая нода является и мастером и с
 
 Приложите скриншоты конфигурации, выполнения работы: состояния и режимы работы серверов.
 
-![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%8B/Screen/Task_2.png)
+![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task2.png)
 
 Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
@@ -22,4 +22,4 @@ Master-Master - Каждая нода является и мастером и с
 
 Приложите скриншоты конфигурации, выполнения работы: состояния и режимы работы серверов.
 
-![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%98%D0%BD%D0%B4%D0%B5%D0%BA%D1%81%D1%8B/Screen/Task_2.png)
+![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A0%D0%B5%D0%BF%D0%BB%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8F%20%D0%B8%20%D0%BC%D0%B0%D1%81%D1%88%D1%82%D0%B0%D0%B1%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task3.png)

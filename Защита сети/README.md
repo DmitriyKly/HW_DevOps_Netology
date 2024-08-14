@@ -12,7 +12,7 @@
 <br>При nmap, Suricata информировала что с ip субьекта были произведены запросы по портам
 <br>![Suricata](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task1.png)
 <br> Fail2ban заблокировал IP субьекта
-<br>![fail2ban](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task1.png)
+<br>![fail2ban](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task1_1.png)
 <br>Задание 2
 <br>Проведите атаку на подбор пароля для службы SSH:
 <br>hydra -L users.txt -P pass.txt < ip-адрес > ssh
@@ -25,3 +25,9 @@
 <br>открыть файл /etc/fail2ban/jail.conf,
 <br>найти секцию ssh,
 <br>установить enabled в true.
+<br>В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.
+
+<br>![1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task1_1.png)
+<br>![2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task1_1.png)
+<br>![3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task1_1.png)
+

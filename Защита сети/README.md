@@ -29,5 +29,5 @@
 
 <br>![1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task2_0.png)
 <br>![2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task2.png)
-<br>![3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task2_1.png)
+<br>![3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task_2_1.png)
 

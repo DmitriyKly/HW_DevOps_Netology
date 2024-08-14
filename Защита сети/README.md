@@ -26,8 +26,12 @@
 <br>найти секцию ssh,
 <br>установить enabled в true.
 <br>В качестве ответа пришлите события, которые попали в логи Suricata и Fail2Ban, прокомментируйте результат.
-
+<br>Включение fail2bal ssh
 <br>![1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task2_0.png)
+<br>События попыток подбора по ssh
 <br>![2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task2.png)
+<br>В логах системы попытка проникновения
 <br>![3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task_2_1.png)
+<br>Блокировка fail2ban
+<br>![3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%97%D0%B0%D1%89%D0%B8%D1%82%D0%B0%20%D1%81%D0%B5%D1%82%D0%B8/screen/Task_2_2.png)
 

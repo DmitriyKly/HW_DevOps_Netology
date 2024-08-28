@@ -24,6 +24,12 @@
 13. Теперь можно сделать коммит `git commit -m 'First commit'`.
 14. И ещё раз посмотреть выводы команд `git status`, `git diff` и `git diff --staged`.
 
+![Task_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/screen/task_1.png)
+
+
+
+
+
 
 ### Создание файлов `.gitignore` и второго коммита
 
@@ -33,6 +39,8 @@
 1. В файле `README.md` опишите своими словами, какие файлы будут проигнорированы в будущем благодаря добавленному `.gitignore`.
 1. Закоммитьте все новые и изменённые файлы. Комментарий к коммиту должен быть `Added gitignore`.
 
+![Task_1_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/screen/task_1_2.png)
+
 ### Эксперимент с удалением и перемещением файлов (третий и четвёртый коммит)
 
 1. Создайте файлы `will_be_deleted.txt` (с текстом `will_be_deleted`) и `will_be_moved.txt` (с текстом `will_be_moved`) и закоммите их с комментарием `Prepare to delete and move`.
@@ -40,6 +48,8 @@
 1. Удалите файл `will_be_deleted.txt` с диска и из репозитория. 
 1. Переименуйте (переместите) файл `will_be_moved.txt` на диске и в репозитории, чтобы он стал называться `has_been_moved.txt`.
 1. Закоммитьте результат работы с комментарием `Moved and deleted`.
+
+![Task_1_3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/screen/task_1_3.png)
 
 ### Проверка изменения
 
@@ -51,8 +61,14 @@
     * `Moved and deleted` — после удаления и перемещения временных файлов. 
 2. Проверьте это, используя комманду `git log`. Подробно о формате вывода этой команды мы поговорим на следующем занятии, но посмотреть, что она отображает, можно уже сейчас.
 
+![Task_1_4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/screen/task_1_4.png)
+
 ### Отправка изменений в репозиторий
 
 Выполните команду `git push`, если Git запросит логин и пароль — введите ваши логин и пароль от GitHub. 
 
+![Task_1_5](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9/screen/task_1_5.png)
+
 В качестве результата отправьте ссылку на репозиторий.
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/tree/main/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8F%20%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D0%B9

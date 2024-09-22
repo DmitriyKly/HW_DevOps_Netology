@@ -78,3 +78,4 @@ https://gitlab.com/netology9405538/hw_devops_netology#
 В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket.
 
 123
+321

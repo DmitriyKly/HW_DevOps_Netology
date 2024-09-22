@@ -43,7 +43,7 @@ https://gitlab.com/netology9405538/hw_devops_netology#
 в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
 в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке.
 
-![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task2.png)
+![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task2_1.png)
 
 ![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task2_1.png)
 

@@ -45,7 +45,7 @@ https://gitlab.com/netology9405538/hw_devops_netology#
 
 ![Task2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task2_1.png)
 
-![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task2_1.png)
+![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task2_2.png)
 
 https://github.com/DmitriyKly/HW_DevOps_Netology/tags
 

@@ -62,6 +62,8 @@ https://github.com/DmitriyKly/HW_DevOps_Netology/tags
 Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network и как изменится вывод команды git log.
 
 
+
+
 Задание 4. Упрощаем себе жизнь
 Попробуем поработь с Git при помощи визуального редактора.
 

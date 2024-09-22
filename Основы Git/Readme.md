@@ -56,19 +56,19 @@ https://github.com/DmitriyKly/HW_DevOps_Netology/tags
 Посмотрите лог коммитов и найдите хеш коммита с названием Prepare to delete and move, который был создан в пределах предыдущего домашнего задания.
 Выполните git checkout по хешу найденного коммита.
 
-![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_1.png)
+![Task3_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_1.png)
 
 Создайте новую ветку fix, базируясь на этом коммите git switch -c fix.
 
-![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_2.png)
+![Task3_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_2.png)
 Отправьте новую ветку в репозиторий на GitHub git push -u origin fix.
-![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_3.png)
+![Task3_3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_3.png)
 
 Посмотрите, как визуально выглядит ваша схема коммитов: https://github.com/YOUR_ACCOUNT/devops-netology/network.
 Теперь измените содержание файла README.md, добавив новую строчку.
 Отправьте изменения в репозиторий и посмотрите, как изменится схема на странице https://github.com/YOUR_ACCOUNT/devops-netology/network и как изменится вывод команды git log.
 
-![Task2_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_4.png)
+![Task3_4](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task3_4.png)
 
 
 Задание 4. Упрощаем себе жизнь
@@ -89,3 +89,5 @@ https://github.com/DmitriyKly/HW_DevOps_Netology/tags
 Если вверху экрана выбрать свою операционную систему, можно посмотреть горячие клавиши для работы с Git. Подробней о визуальном интерфейсе мы расскажем на одной из следующих лекций.
 
 В качестве результата работы по всем заданиям приложите ссылки на ваши репозитории в GitHub, GitLab и Bitbucket.
+
+![Task4_1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task4_1.png)

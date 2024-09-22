@@ -28,6 +28,12 @@ GitLab. Для регистрации можно использовать акк
 
 ![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task1.png)
 
+![Task1_2](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20Git/Screen/Task1_2.png)
+
+https://gitlab.com/netology9405538/hw_devops_netology#
+
+
+
 Bitbucket* (задание со звёздочкой)
 Это самостоятельное задание, его выполнение необязательно.
 

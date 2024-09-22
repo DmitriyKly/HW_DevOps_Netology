@@ -33,45 +33,6 @@ GitLab. Для регистрации можно использовать акк
 https://gitlab.com/netology9405538/hw_devops_netology#
 
 
-
-Bitbucket* (задание со звёздочкой)
-Это самостоятельное задание, его выполнение необязательно.
-
-Теперь необходимо проделать всё то же самое с Bitbucket.
-
-Обратите внимание, что репозиторий должен быть публичным — отключите галочку private repository при создании репозитория.
-На вопрос Include a README? отвечайте отказом.
-В отличии от GitHub и GitLab в Bitbucket репозиторий должен принадлежать проекту, поэтому во время создания репозитория надо создать и проект, который можно назвать, например, netology.
-Аналогично GitLab на странице вновь созданного проекта выберите https, чтобы получить ссылку, и добавьте этот репозиторий, как git remote add bitbucket ....
-Обратите внимание, как изменился результат работы команды git remote -v.
-Если всё проделано правильно, то результат команды git remote -v должен быть следующий:
-
-$ git remote -v
-bitbucket https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (fetch)
-bitbucket https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (push)
-gitlab	  https://gitlab.com/andrey.borue/devops-netology.git (fetch)
-gitlab	  https://gitlab.com/andrey.borue/devops-netology.git (push)
-origin	  https://github.com/andrey-borue/devops-netology.git (fetch)
-origin	  https://github.com/andrey-borue/devops-netology.git (push)
-Дополнительно можете добавить удалённые репозитории по ssh, тогда результат будет примерно такой:
-
-git remote -v
-bitbucket	git@bitbucket.org:andreyborue/devops-netology.git (fetch)
-bitbucket	git@bitbucket.org:andreyborue/devops-netology.git (push)
-bitbucket-https	https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (fetch)
-bitbucket-https	https://andreyborue@bitbucket.org/andreyborue/devops-netology.git (push)
-gitlab	git@gitlab.com:andrey.borue/devops-netology.git (fetch)
-gitlab	git@gitlab.com:andrey.borue/devops-netology.git (push)
-gitlab-https	https://gitlab.com/andrey.borue/devops-netology.git (fetch)
-gitlab-https	https://gitlab.com/andrey.borue/devops-netology.git (push)
-origin	git@github.com:andrey-borue/devops-netology.git (fetch)
-origin	git@github.com:andrey-borue/devops-netology.git (push)
-origin-https	https://github.com/andrey-borue/devops-netology.git (fetch)
-origin-https	https://github.com/andrey-borue/devops-netology.git (push)
-Выполните push локальной ветки main в новые репозитории.
-
-Подсказка: git push -u gitlab main. На этом этапе история коммитов во всех трёх репозиториях должна совпадать.
-
 Задание 2. Теги
 Представьте ситуацию, когда в коде была обнаружена ошибка — надо вернуться на предыдущую версию кода, исправить её и выложить исправленный код в продакшн. Мы никуда не будем выкладывать код, но пометим некоторые коммиты тегами и создадим от них ветки.
 
@@ -81,6 +42,7 @@ origin-https	https://github.com/andrey-borue/devops-netology.git (push)
 в GitHub — https://github.com/YOUR_ACCOUNT/devops-netology/releases;
 в GitLab — https://gitlab.com/YOUR_ACCOUNT/devops-netology/-/tags;
 в Bitbucket — список тегов расположен в выпадающем меню веток на отдельной вкладке.
+
 
 
 Задание 3. Ветки

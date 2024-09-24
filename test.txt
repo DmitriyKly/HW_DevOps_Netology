@@ -20,8 +20,3 @@ new feature
 code
 code
 code
-server
-server
-server
-client
-client

@@ -21,9 +21,3 @@ code
 code
 code
 code
-server
-server
-server
-client
-client
-12312

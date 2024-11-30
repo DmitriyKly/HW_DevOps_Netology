@@ -81,7 +81,7 @@ See 'snap info docker' for additional versions.
 
 6. Остановите проект. В качестве ответа приложите скриншот sql-запроса.
 
-
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20Docker/Task_3_6.png)
 
 ## Задача 4
 1. Запустите в Yandex Cloud ВМ (вам хватит 2 Гб Ram).
@@ -98,6 +98,9 @@ See 'snap info docker' for additional versions.
 https://github.com/DmitriyKly/shvirtd-example-python/blob/main/bash
 
 https://github.com/DmitriyKly/shvirtd-example-python/tree/main
+
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%B0%D0%BA%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%BE%D0%B5%20%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20Docker/Task_4_5.png)
+
 
 ## Задача 5 (*)
 1. Напишите и задеплойте на вашу облачную ВМ bash скрипт, который произведет резервное копирование БД mysql в директорию "/opt/backup" с помощью запуска в сети "backend" контейнера из образа ```schnitzler/mysqldump``` при помощи ```docker run ...``` команды. Подсказка: "документация образа."

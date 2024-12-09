@@ -51,10 +51,11 @@
 
 - скриншот ЛК Yandex Cloud с созданной ВМ, где видно внешний ip-адрес;
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D1%81%20Terraform/screen/Task1_8.png)
 
 - скриншот консоли, curl должен отобразить тот же внешний ip-адрес;
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D1%8B%20%D1%81%20Terraform/screen/Task1_6.png)
 
 - ответы на вопросы.
 

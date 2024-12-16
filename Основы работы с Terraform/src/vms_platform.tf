@@ -4,9 +4,9 @@ variable "image_ubuntu_22" {
   description = "Ubuntu_22_04"
 }
 
-variable "vm_web_name" {
+variable "vm_name" {
   type        = string
-  default     = "netology-develop-platform-web"
+  default     = "netology-develop-platform"
   description = "name_vm"
 }
 
@@ -16,6 +16,11 @@ variable "vm_web_platform" {
   description = "OS"
 }
 
+variable "name_web" {
+  type        = string
+  default     = "web"
+  description = "name_vm"
+}
 
 /* variable "vm_web_core" {
   type        = number
@@ -54,12 +59,9 @@ variable "vm_web_serial_port" {
 }
 
 
-
-
-
-variable "vm_db_name" {
+variable "name_db" {
   type        = string
-  default     = "netology-develop-platform-db"
+  default     = "db"
   description = "name_vm"
 }
 

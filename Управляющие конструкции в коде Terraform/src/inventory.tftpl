@@ -1,0 +1,14 @@
+[webservers]
+{% for server in webservers %}
+{{ server.ip }} ansible_host={{ server.ip }} fqdn={{ server.fqdn }}
+{% endfor %}
+
+[databases]
+{% for db_vm in databases %}
+{{ db_vm.ip }} ansible_host={{ db_vm.ip }} fqdn={{ db_vm.fqdn }}
+{% endfor %}
+
+[storage]
+{% for storage_server in storage %}
+{{ storage_server.ip }} ansible_host={{ storage_server.ip }} fqdn={{ storage_server.fqdn }}
+{% endfor %}

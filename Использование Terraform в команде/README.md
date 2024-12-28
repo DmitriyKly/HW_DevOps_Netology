@@ -92,6 +92,8 @@ Check: CKV_TF_2: "Ensure Terraform module sources use a tag with a version numbe
 
 5. Пришлите ссылку на PR для ревью. Вливать код в 'terraform-05' не нужно.
 
+https://github.com/DmitriyKly/HW_DevOps_Netology/pull/3
+
 ------
 ### Задание 4
 
@@ -99,6 +101,9 @@ Check: CKV_TF_2: "Ensure Terraform module sources use a tag with a version numbe
 
 - type=string, description="ip-адрес" — проверка, что значение переменной содержит верный IP-адрес с помощью функций cidrhost() или regex(). Тесты:  "192.168.0.1" и "1920.1680.0.1";
 - type=list(string), description="список ip-адресов" — проверка, что все адреса верны. Тесты:  ["192.168.0.1", "1.1.1.1", "127.0.0.1"] и ["192.168.0.1", "1.1.1.1", "1270.0.0.1"].
+
+
+
 
 ## Дополнительные задания (со звёздочкой*)
 

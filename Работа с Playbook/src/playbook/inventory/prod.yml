@@ -1,0 +1,14 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 51.250.1.133
+      ansible_user: dmitriy
+      ansible_private_key_file: /home/dmitriy/github
+
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 51.250.1.133
+      ansible_user: dmitriy
+      ansible_private_key_file: /home/dmitriy/github

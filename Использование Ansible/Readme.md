@@ -42,7 +42,7 @@ https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0
 
 10. Готовый playbook выложите в свой репозиторий, поставьте тег `08-ansible-03-yandex` на фиксирующий коммит, в ответ предоставьте ссылку на него.
 
-
+https://github.com/DmitriyKly/HW_DevOps_Netology/releases/tag/08-ansible-03-yandex
 
 ---
 

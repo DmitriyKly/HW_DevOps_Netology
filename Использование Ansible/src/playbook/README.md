@@ -14,12 +14,10 @@ Playbook устанавливает и конфигурирует `clickhouse` ,
 Разворачивает Clickhouse, создает БД 
 Разворачивает Vector, добавляет конфигурацию
 Устанавливает LightHouse, добавляет конфигурацию в nginx
-Переменные 
----
+#### Переменные 
 `clickhouse/vars_yml`. Можно изменить параметры: `clickhouse_version`
 `lighthouse/vars_yml`. Можно изменить параметры: `lighthouse_home_dir` , `nginx_config_dir`
-Тэги:
----
+#### Тэги:
 - `clickhouse` - установка и конфигурирование `clickhouse` 
 - `vector` - установка `vector`
 - `lighthouse` - установка и добавление конфигурации lighthouse.conf.j2 в nginx

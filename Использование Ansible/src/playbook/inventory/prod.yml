@@ -1,0 +1,22 @@
+---
+clickhouse:
+  hosts:
+    clickhouse-01:
+      ansible_host: 51.250.9.30
+      ansible_user: dmitriy
+      ansible_private_key_file: /home/dmitriy/yandex_rsa
+
+vector:
+  hosts:
+    vector-01:
+      ansible_host: 158.160.56.203
+      ansible_user: dmitriy
+      ansible_private_key_file: /home/dmitriy/yandex_rsa
+
+lighthouse:
+  hosts:
+    lighthouse-01:
+      ansible_host: 89.169.158.144
+      ansible_user: dmitriy
+      ansible_private_key_file: /home/dmitriy/yandex_rsa
+      

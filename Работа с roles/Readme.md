@@ -52,11 +52,17 @@
 
 8. Выложите все roles в репозитории. Проставьте теги, используя семантическую нумерацию. Добавьте roles в `requirements.yml` в playbook.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20roles/Screen/Task8.png)
 
 9. Переработайте playbook на использование roles. Не забудьте про зависимости LightHouse и возможности совмещения `roles` с `tasks`.
 10. Выложите playbook в репозиторий.
 11. В ответе дайте ссылки на оба репозитория с roles и одну ссылку на репозиторий с playbook.
+
+https://github.com/DmitriyKly/vector-role
+
+https://github.com/DmitriyKly/lighthouse-role
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/%D0%A0%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%20%D1%81%20roles/src/playbook
 
 ---
 

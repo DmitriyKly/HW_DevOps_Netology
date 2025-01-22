@@ -1,0 +1,15 @@
+---
+- name: Get RPM Vector
+  # become: true
+  ansible.builtin.get_url:
+    url: "https://packages.timber.io/vector/{{ vector_version }}/vector-{{ vector_version }}-1.x86_64.rpm"
+    dest: "./vector-{{ vector_version }}.rpm"
+    mode: "0644"
+    validate_certs: false
+- name: Install vector package
+  # become: true
+  ansible.builtin.yum:
+    name:
+      - ./vector-{{ vector_version }}.rpm
+    disable_gpg_check: true
+  notify: Start Vector service

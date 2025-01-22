@@ -1,0 +1,37 @@
+---
+- name: Nginx
+  become: true
+  notify: restarted nginx service
+  block:
+    - name: Add repo nginx
+      ansible.builtin.copy:
+        dest: /etc/yum.repos.d/nginx.repo
+        mode: "0755"
+        content: |
+          [nginx]
+          name=nginx repo
+          baseurl=https://nginx.org/packages/centos/$releasever/$basearch/
+          gpgcheck=0
+          enabled=1
+    - name: Install nginx and git
+      ansible.builtin.yum:
+        name:
+          - nginx
+          - git
+        state: present
+        update_cache: true
+
+    - name: Get lighthouse from git
+      ansible.builtin.git:
+        repo: "https://github.com/VKCOM/lighthouse.git"
+        dest: "{{ lighthouse_home_dir }}"
+        version: "d701335c25cd1bb9b5155711190bad8ab852c2ce"
+
+    - name: Configure nginx from template
+      ansible.builtin.template:
+        src: lighthouse.conf.j2
+        dest: "{{ nginx_config_dir }}/conf.d/default.conf"
+        mode: "0755"
+
+- name: Flush handlers
+  ansible.builtin.meta: flush_handlers

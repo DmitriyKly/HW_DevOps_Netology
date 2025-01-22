@@ -1,0 +1,6 @@
+galaxy_info:
+  role_name: vector_role  # название вашей роли без дефисов
+  namespace: dmitriy      # ваше имя или namespace в нижнем регистре
+  author: Dmitriy         # ваше имя как автора
+  description: "Описание вашей роли"
+  license: MIT            # лицензия, если есть

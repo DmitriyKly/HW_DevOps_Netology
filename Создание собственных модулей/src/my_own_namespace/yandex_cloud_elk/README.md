@@ -24,5 +24,5 @@ This collection includes a custom Ansible module to create a text file on a remo
 - name: Use the role to create a text file
   hosts: localhost
   roles:
-    - my_role
+    - create_file_role
 ```

@@ -17,7 +17,7 @@
 
 1. Создайте новый проект, название произвольное.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task1.png)
 
 2. Скачайте пакет sonar-scanner, который вам предлагает скачать SonarQube.
 

@@ -40,11 +40,17 @@
 ![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task6.png)
 
 7. Исправьте ошибки, которые он выявил, включая warnings.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task7.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task7.1.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task7.2.png)
+
 8. Запустите анализатор повторно — проверьте, что QG пройдены успешно.
-
-
-
 9. Сделайте скриншот успешного прохождения анализа, приложите к решению ДЗ.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task9.png)
 
 ## Знакомство с Nexus
 
@@ -57,10 +63,17 @@
  *    version: 8_282;
  *    classifier: distrib;
  *    type: tar.gz.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Nexus1.png)
    
 2. В него же загрузите такой же артефакт, но с version: 8_102.
 3. Проверьте, что все файлы загрузились успешно.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Nexus2.png)
+
 4. В ответе пришлите файл `maven-metadata.xml` для этого артефекта.
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/%20src/maven-metadata.xml
 
 ### Знакомство с Maven
 
@@ -72,12 +85,25 @@
 4. Проверьте `mvn --version`.
 5. Заберите директорию [mvn](./mvn) с pom.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/mvn1.png)
+
 ### Основная часть
 
 1. Поменяйте в `pom.xml` блок с зависимостями под ваш артефакт из первого пункта задания для Nexus (java с версией 8_282).
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/mvn2.png)
+
 2. Запустите команду `mvn package` в директории с `pom.xml`, ожидайте успешного окончания.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/mvn3.png)
+
 3. Проверьте директорию `~/.m2/repository/`, найдите ваш артефакт.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/mvn4.png)
+
 4. В ответе пришлите исправленный файл `pom.xml`.
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/%20src/pom.xml
 
 ---
 

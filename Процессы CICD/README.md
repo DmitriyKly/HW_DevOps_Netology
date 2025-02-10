@@ -21,19 +21,23 @@
 
 2. Скачайте пакет sonar-scanner, который вам предлагает скачать SonarQube.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task2.png)
 
 3. Сделайте так, чтобы binary был доступен через вызов в shell (или поменяйте переменную PATH, или любой другой, удобный вам способ).
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task3.png)
 
 4. Проверьте `sonar-scanner --version`.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task4.png)
 
 5. Запустите анализатор против кода из директории [example](./example) с дополнительным ключом `-Dsonar.coverage.exclusions=fail.py`.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task5.png)
+
 6. Посмотрите результат в интерфейсе.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9F%D1%80%D0%BE%D1%86%D0%B5%D1%81%D1%81%D1%8B%20CICD/screen/Sonar_task6.png)
 
 7. Исправьте ошибки, которые он выявил, включая warnings.
 8. Запустите анализатор повторно — проверьте, что QG пройдены успешно.

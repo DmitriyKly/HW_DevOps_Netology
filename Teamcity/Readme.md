@@ -13,52 +13,69 @@
 
 1. Создайте новый проект в teamcity на основе fork.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task1.png)
 
 2. Сделайте autodetect конфигурации.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task2.png)
 
 3. Сохраните необходимые шаги, запустите первую сборку master.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task3.png)
 
 4. Поменяйте условия сборки: если сборка по ветке `master`, то должен происходит `mvn clean deploy`, иначе `mvn clean test`.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task4.png)
 
 5. Для deploy будет необходимо загрузить [settings.xml](./teamcity/settings.xml) в набор конфигураций maven у teamcity, предварительно записав туда креды для подключения к nexus.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task5.png)
 
 6. В pom.xml необходимо поменять ссылки на репозиторий и nexus.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task6.png)
 
 7. Запустите сборку по master, убедитесь, что всё прошло успешно и артефакт появился в nexus.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task7.png)
 
 8. Мигрируйте `build configuration` в репозиторий.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task8.png)
 
 9. Создайте отдельную ветку `feature/add_reply` в репозитории.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task9.png)
 
 10. Напишите новый метод для класса Welcomer: метод должен возвращать произвольную реплику, содержащую слово `hunter`.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task10.png)
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task10_2.png)
 
 11. Дополните тест для нового метода на поиск слова `hunter` в новой реплике.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task11.png)
 
 12. Сделайте push всех изменений в новую ветку репозитория.
 13. Убедитесь, что сборка самостоятельно запустилась, тесты прошли успешно.
 
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task13.png)
 
 14. Внесите изменения из произвольной ветки `feature/add_reply` в `master` через `Merge`.
 15. Убедитесь, что нет собранного артефакта в сборке по ветке `master`.
 16. Настройте конфигурацию так, чтобы она собирала `.jar` в артефакты сборки.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task16.png)
+
 17. Проведите повторную сборку мастера, убедитесь, что сбора прошла успешно и артефакты собраны.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task17.png)
+
 18. Проверьте, что конфигурация в репозитории содержит все настройки конфигурации из teamcity.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Teamcity/screen/Task18.png)
+
 19. В ответе пришлите ссылку на репозиторий.
 
 https://github.com/DmitriyKly/example-teamcity

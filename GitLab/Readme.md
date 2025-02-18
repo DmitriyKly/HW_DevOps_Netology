@@ -20,15 +20,18 @@
 В репозитории содержится код проекта на Python. Проект — RESTful API сервис. Ваша задача — автоматизировать сборку образа с выполнением python-скрипта:
 
 1. Образ собирается на основе [centos:7](https://hub.docker.com/_/centos?tab=tags&page=1&ordering=last_updated).
-
-
-
 2. Python версии не ниже 3.7.
 3. Установлены зависимости: `flask` `flask-jsonpify` `flask-restful`.
 4. Создана директория `/python_api`.
 5. Скрипт из репозитория размещён в /python_api.
 6. Точка вызова: запуск скрипта.
 7. При комите в любую ветку должен собираться docker image с форматом имени hello:gitlab-$CI_COMMIT_SHORT_SHA . Образ должен быть выложен в Gitlab registry или yandex registry.   
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task1.png)
+
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task1_1.png)
+
 
 ### Product Owner
 
@@ -38,6 +41,8 @@
 2. Текст с `{ "message": "Already started" }` на `{ "message": "Running"}`.
 3. Issue поставить label: feature.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task2.png)
+
 ### DeveloperA
 
 Пришёл новый Issue на доработку, вам нужно:
@@ -45,6 +50,13 @@
 1. Создать отдельную ветку, связанную с этим Issue.
 2. Внести изменения по тексту из задания.
 3. Подготовить Merge Request, влить необходимые изменения в `master`, проверить, что сборка прошла успешно.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task3.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task3_1.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task3_2.png)
+
 
 
 ### Tester
@@ -54,18 +66,27 @@
 1. Поднять докер-контейнер с образом `python-api:latest` и проверить возврат метода на корректность.
 2. Закрыть Issue с комментарием об успешности прохождения, указав желаемый результат и фактически достигнутый.
 
-
-
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task4.png)
 
 ## Итог
 
 В качестве ответа пришлите подробные скриншоты по каждому пункту задания:
 
 - файл gitlab-ci.yml;
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/src/gitlab-ci.yml
+
 - Dockerfile; 
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/src/dockerfile
+
 - лог успешного выполнения пайплайна;
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/src/logs.txt
+
 - решённый Issue.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/GitLab/screen/Task4.png)
 
 
 

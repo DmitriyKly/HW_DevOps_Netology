@@ -92,33 +92,3 @@ https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Git
 
 ### Важно 
 После выполнения задания выключите и удалите все задействованные ресурсы в Yandex Cloud.
-
-
-stages:
-  - build
-  - deploy
-
-image: docker:20.10.5
-
-services:
-  - docker:20.10.5-dind
-variables:
-  IMAGE_NAME: "hello:gitlab-$CI_COMMIT_SHORT_SHA"   
-  DOCKER_HOST: "tcp://docker:2375"
-  DOCKER_TLS_CERTDIR: ""
-builder:
-  stage: build
-  script:
-    - docker build -t $IMAGE_NAME .
-  except:
-    - main
-
-deployer:
-  stage: deploy
-  script:
-    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-    - docker build -t $CI_REGISTRY/kldiman/netology/$IMAGE_NAME .
-    - docker push $CI_REGISTRY/kldiman/netology/$IMAGE_NAME
-
-  only:
-    - main

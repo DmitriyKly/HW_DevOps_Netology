@@ -183,6 +183,11 @@ Nagios	Pull	Поддерживает пассивные проверки (push-�
 
 P.S.: если при запуске некоторые контейнеры будут падать с ошибкой - проставьте им режим `Z`, например
 `./data:/var/lib:Z`
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/13.%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0/screen/Task7.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/13.%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0/screen/Task7_1.png)
+
 #
 8. Перейдите в веб-интерфейс Chronograf (http://localhost:8888) и откройте вкладку Data explorer.
         
@@ -193,6 +198,9 @@ P.S.: если при запуске некоторые контейнеры б�
 
 Для выполнения задания приведите скриншот с отображением метрик утилизации cpu из веб-интерфейса.
 #
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/13.%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0/screen/Task8.png)
+
 9. Изучите список [telegraf inputs](https://github.com/influxdata/telegraf/tree/master/plugins/inputs). 
 Добавьте в конфигурацию telegraf следующий плагин - [docker](https://github.com/influxdata/telegraf/tree/master/plugins/inputs/docker):
 ```
@@ -219,6 +227,8 @@ P.S.: если при запуске некоторые контейнеры б�
 
 После настройке перезапустите telegraf, обновите веб интерфейс и приведите скриншотом список `measurments` в 
 веб-интерфейсе базы telegraf.autogen . Там должны появиться метрики, связанные с docker.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/13.%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B%20%D0%BC%D0%BE%D0%BD%D0%B8%D1%82%D0%BE%D1%80%D0%B8%D0%BD%D0%B3%D0%B0/screen/Task9.png)
 
 Факультативно можете изучить какие метрики собирает telegraf после выполнения данного задания.
 

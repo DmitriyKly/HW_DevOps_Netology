@@ -184,10 +184,15 @@ Push предпочтителен в динамических средах, гд
     - Nagios
 
 Итоговая классификация:
+#
 Prometheus	Pull	Поддерживает гибридный подход через Pushgateway.
+#
 TICK	Push	Telegraf отправляет данные в InfluxDB.
+#
 Zabbix	Гибридная	Поддерживает pull (опрос агентов) и push (Zabbix Trapper).
+#
 VictoriaMetrics	Гибридная	Поддерживает push (InfluxDB line protocol) и pull (Prometheus remote write).
+#
 Nagios	Pull	Поддерживает пассивные проверки (push-подобная функциональность).
 
 #

@@ -40,7 +40,13 @@ Filebeat следует сконфигурировать для отправки
 Результатом выполнения задания должны быть:
 
 - скриншот `docker ps` через 5 минут после старта всех контейнеров (их должно быть 5);
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D0%B1%D0%BE%D1%80%D0%B0%20%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%20Elastic%20Stack/screen/Task1_1.png)
+
 - скриншот интерфейса kibana;
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D0%B1%D0%BE%D1%80%D0%B0%20%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%20Elastic%20Stack/screen/Task1_2.png)
+
 - docker-compose манифест (если вы не использовали директорию help);
 - ваши yml-конфигурации для стека (если вы не использовали директорию help).
 
@@ -48,7 +54,13 @@ Filebeat следует сконфигурировать для отправки
 
 Перейдите в меню [создания index-patterns  в kibana](http://localhost:5601/app/management/kibana/indexPatterns/create) и создайте несколько index-patterns из имеющихся.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D0%B1%D0%BE%D1%80%D0%B0%20%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%20Elastic%20Stack/screen/Task2_1.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D0%B1%D0%BE%D1%80%D0%B0%20%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%20Elastic%20Stack/screen/Task2_1_1.png)
+
 Перейдите в меню просмотра логов в kibana (Discover) и самостоятельно изучите, как отображаются логи и как производить поиск по логам.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A1%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%B0%20%D1%81%D0%B1%D0%BE%D1%80%D0%B0%20%D0%BB%D0%BE%D0%B3%D0%BE%D0%B2%20Elastic%20Stack/screen/Task2_2.png)
 
 В манифесте директории help также приведенно dummy-приложение, которое генерирует рандомные события в stdout-контейнера.
 Эти логи должны порождать индекс logstash-* в elasticsearch. Если этого индекса нет — воспользуйтесь советами и источниками из раздела «Дополнительные ссылки» этого задания.

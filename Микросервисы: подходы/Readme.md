@@ -235,6 +235,10 @@
 docker compose файл, запустив который можно перейти по адресу http://localhost:8081, по которому доступна Kibana.
 Логин в Kibana должен быть admin, пароль qwerty123456.
 
+https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%3A%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8B/src/11-microservices-03
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%3A%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8B/screen/Task4.png)
+
 
 ## Задача 5: Мониторинг * (необязательная)
 
@@ -252,7 +256,12 @@ docker compose файл, запустив который можно перейт
 docker compose файл, запустив который можно перейти по адресу http://localhost:8081, по которому доступна Grafana с настроенным Dashboard.
 Логин в Grafana должен быть admin, пароль qwerty123456.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%3A%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8B/screen/Task5.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%9C%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B%3A%20%D0%BF%D0%BE%D0%B4%D1%85%D0%BE%D0%B4%D1%8B/screen/Task5_2.png)
+
 ---
+
 
 ### Как оформить ДЗ?
 

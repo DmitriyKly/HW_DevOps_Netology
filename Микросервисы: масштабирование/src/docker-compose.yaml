@@ -1,0 +1,85 @@
+version: '3.8'
+
+services:
+  redis-shard1:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard1.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7001:6379
+    volumes:
+      - redis_data_shard1:/data
+
+  redis-shard1-replica1:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard1-replica1.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7002:6379
+    volumes:
+      - redis_data_shard1_replica1:/data
+
+  redis-shard1-replica2:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard1-replica2.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7003:6379
+    volumes:
+      - redis_data_shard1_replica2:/data
+
+  redis-shard2:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard2.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7004:6379
+    volumes:
+      - redis_data_shard2:/data
+
+  redis-shard2-replica1:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard2-replica1.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7005:6379
+    volumes:
+      - redis_data_shard2_replica1:/data
+
+  redis-shard2-replica2:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard2-replica2.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7006:6379
+    volumes:
+      - redis_data_shard2_replica2:/data
+
+  redis-shard3:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard3.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7007:6379
+    volumes:
+      - redis_data_shard3:/data
+
+  redis-shard3-replica1:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard3-replica1.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7008:6379
+    volumes:
+      - redis_data_shard3_replica1:/data
+
+  redis-shard3-replica2:
+    image: redis:latest
+    command: redis-server --cluster-enabled yes --cluster-config-file nodes-shard3-replica2.conf --cluster-node-timeout 5000 --appendonly yes
+    ports:
+      - 7009:6379
+    volumes:
+      - redis_data_shard3_replica2:/data
+
+volumes:
+  redis_data_shard1:
+  redis_data_shard1_replica1:
+  redis_data_shard1_replica2:
+  redis_data_shard2:
+  redis_data_shard2_replica1:
+  redis_data_shard2_replica2:
+  redis_data_shard3:
+  redis_data_shard3_replica1:
+  redis_data_shard3_replica2:

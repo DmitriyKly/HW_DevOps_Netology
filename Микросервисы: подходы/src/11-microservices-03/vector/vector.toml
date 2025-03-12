@@ -1,0 +1,9 @@
+[sources.docker]
+  type = "docker_logs"
+  docker_host = "unix:///var/run/docker.sock"
+
+[sinks.elasticsearch]
+  type = "elasticsearch"
+  inputs = ["docker"]
+  endpoints = ["http://elasticsearch:9200"]
+  bulk.index = "logs-%Y-%m-%d"

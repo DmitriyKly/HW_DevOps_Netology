@@ -45,6 +45,8 @@
 
 5. Предоставить манифесты Deployment и Service в решении, а также скриншоты или вывод команды п.4.
 
+https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/%D0%A1%D0%B5%D1%82%D0%B5%D0%B2%D0%BE%D0%B5%20%D0%B2%D0%B7%D0%B0%D0%B8%D0%BC%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B5%20%D0%B2%20K8S.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%202/Task1
+
 ------
 
 ### Задание 2. Создать Ingress и обеспечить доступ к приложениям снаружи кластера

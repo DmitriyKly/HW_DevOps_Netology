@@ -57,6 +57,8 @@ https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0
 
 4. Предоставить манифесты Deployment, а также скриншоты или вывод команды из п. 2.
 
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20K8s.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/src/daemonset.yaml
+
 ------
 
 ### Правила приёма работы

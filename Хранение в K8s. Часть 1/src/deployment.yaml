@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: shared-volume-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: shared-volume
+  template:
+    metadata:
+      labels:
+        app: shared-volume
+    spec:
+      containers:
+      - name: busybox
+        image: busybox
+        command: ["/bin/sh", "-c", "while true; do echo $(date) >> /shared-data/log.txt; sleep 5; done"]
+        volumeMounts:
+        - name: shared-storage
+          mountPath: /shared-data
+      - name: multitool
+        image: wbitt/network-multitool
+        command: ["/bin/sh", "-c", "tail -f /shared-data/log.txt"]
+        volumeMounts:
+        - name: shared-storage
+          mountPath: /shared-data
+      volumes:
+      - name: shared-storage
+        emptyDir: {}

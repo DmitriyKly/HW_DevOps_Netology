@@ -31,8 +31,12 @@
 1. Создать Deployment приложения, состоящего из контейнеров busybox и multitool.
 2. Сделать так, чтобы busybox писал каждые пять секунд в некий файл в общей директории.
 3. Обеспечить возможность чтения файла контейнером multitool.
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20K8s.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task1.3.png)
 4. Продемонстрировать, что multitool может читать файл, который периодоически обновляется.
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20K8s.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task1.4.png)
 5. Предоставить манифесты Deployment в решении, а также скриншоты или вывод команды из п. 4.
+
+https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20K8s.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/src/deployment.yaml
 
 ------
 
@@ -43,8 +47,14 @@
 Создать DaemonSet приложения, которое может прочитать логи ноды.
 
 1. Создать DaemonSet приложения, состоящего из multitool.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20K8s.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task2.1.png)
+
 2. Обеспечить возможность чтения файла `/var/log/syslog` кластера MicroK8S.
 3. Продемонстрировать возможность чтения файла изнутри пода.
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A5%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5%20%D0%B2%20K8s.%20%D0%A7%D0%B0%D1%81%D1%82%D1%8C%201/screen/Task2.3.png)
+
 4. Предоставить манифесты Deployment, а также скриншоты или вывод команды из п. 2.
 
 ------

@@ -27,6 +27,9 @@
 2. Каждый компонент приложения деплоится отдельным deployment’ом или statefulset’ом.
 3. В переменных чарта измените образ приложения для изменения версии.
 
+До: https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/Helm/src/k8s/full-nginx
+После: https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/Helm/src/Helm/nginx-chart
+
 ------
 ### Задание 2. Запустить две версии в разных неймспейсах
 
@@ -34,6 +37,15 @@
 2. Одну версию в namespace=app1, вторую версию в том же неймспейсе, третью версию в namespace=app2.
 3. Продемонстрируйте результат.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Helm/Task2_1.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Helm/Task2_2.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Helm/Task2_3.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Helm/Task2_4.png)
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Helm/Task2_5.png)
 
 
 ### Правила приёма работы

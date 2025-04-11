@@ -1,0 +1,35 @@
+replicaCount: 1
+image:
+  repository: nginx
+  tag: latest
+
+pv_nginx_html:
+  size: 1Gi
+  hostPath: "/PV/html/"
+  storageClass: "standard"
+  accessModes: "ReadWriteOnce"
+  persistentVolumeReclaimPolicy: "Retain"
+
+pv_nginx_logs:
+  size: 1Gi
+  hostPath: "/PV/logs/"
+  storageClass: "standard"
+  accessModes: "ReadWriteOnce"
+  persistentVolumeReclaimPolicy: "Retain"
+
+pvc_nginx_logs:
+  size: 1Gi
+  storageClass: "standard"
+  accessModes: "ReadWriteOnce"
+  persistentVolumeReclaimPolicy: "Retain"
+
+pvc_nginx_html:
+  size: 1Gi
+  storageClass: "standard"
+  accessModes: "ReadWriteOnce"
+  persistentVolumeReclaimPolicy: "Retain"
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 80

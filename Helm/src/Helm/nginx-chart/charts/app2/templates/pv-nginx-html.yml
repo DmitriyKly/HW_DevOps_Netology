@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: PersistentVolume
+metadata:
+  name: {{.Release.Name}}-pv-nginx-html
+spec:
+  storageClassName: {{.Values.pv_nginx_html.storageClass}}
+  capacity:
+    storage: {{.Values.pv_nginx_html.size}}
+  accessModes:
+    - {{.Values.pv_nginx_html.accessModes}}
+  persistentVolumeReclaimPolicy: {{.Values.pv_nginx_html.persistentVolumeReclaimPolicy}}
+  hostPath:
+    path: {{.Values.pv_nginx_html.hostPath}}

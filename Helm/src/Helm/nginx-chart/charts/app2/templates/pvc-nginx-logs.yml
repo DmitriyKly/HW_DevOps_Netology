@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{.Release.Name}}-pvc-nginx-logs
+spec:
+  storageClassName: {{.Values.pvc_nginx_logs.storageClass}}
+  accessModes:
+    - {{.Values.pvc_nginx_logs.accessModes}}
+  resources:
+    requests:
+      storage: {{.Values.pvc_nginx_logs.size}}
+  volumeName: {{.Release.Name}}-pv-nginx-logs

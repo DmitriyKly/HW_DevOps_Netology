@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{.Release.Name}}-nginx-chart-deploy
+  namespace: {{.Values.namespace}}
+spec:
+  replicas: {{.Values.replicaCount}} 
+  selector:
+    matchLabels:
+      app: {{.Release.Name}}-nginx-chart
+  template:
+    metadata:
+      labels:
+        app: {{.Release.Name}}-nginx-chart
+    spec:
+      containers:
+      - name: nginx
+        image: {{ .Values.image.repository }}:{{ .Values.image.tag }}
+        ports:
+          - containerPort: 80
+        volumeMounts:
+          - name: nginx-storage
+            mountPath: /etc/nginx/nginx.conf
+            subPath: nginx.conf
+          - name: nginx-html
+            mountPath: /usr/share/nginx/html
+          - name: nginx-logs
+            mountPath: /var/log/nginx
+      volumes:
+        - name: nginx-storage
+          configMap:
+            name: {{.Release.Name}}-nginx-config
+            items:
+            - key: nginx.conf
+              path: nginx.conf
+        - name: nginx-html
+          persistentVolumeClaim:
+            claimName: {{.Release.Name}}-pvc-nginx-html
+        - name: nginx-logs
+          persistentVolumeClaim:
+            claimName: {{.Release.Name}}-pvc-nginx-logs
+

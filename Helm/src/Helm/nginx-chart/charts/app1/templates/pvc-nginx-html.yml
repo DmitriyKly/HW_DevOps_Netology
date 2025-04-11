@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: {{.Release.Name}}-pvc-nginx-html
+spec:
+  storageClassName: {{.Values.pvc_nginx_html.storageClass}}
+  accessModes:
+    - {{.Values.pvc_nginx_html.accessModes}}
+  resources:
+    requests:
+      storage: {{.Values.pvc_nginx_html.size}} 
+  volumeName: {{.Release.Name}}-pv-nginx-html # Принудительно связываем PVC с PV 

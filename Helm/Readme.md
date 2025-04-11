@@ -28,6 +28,7 @@
 3. В переменных чарта измените образ приложения для изменения версии.
 
 До: https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/Helm/src/k8s/full-nginx
+
 После: https://github.com/DmitriyKly/HW_DevOps_Netology/tree/GitHub_Netology_Devops/Helm/src/Helm/nginx-chart
 
 ------

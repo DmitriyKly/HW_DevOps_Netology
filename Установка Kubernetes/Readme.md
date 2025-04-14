@@ -23,7 +23,9 @@
 3. Запуск etcd производить на мастере.
 4. Способ установки выбрать самостоятельно.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Kubernetes/screen/Task1.png)
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%A3%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BA%D0%B0%20Kubernetes/screen/Task1_1.png)
 
 ## Дополнительные задания (со звёздочкой)
 

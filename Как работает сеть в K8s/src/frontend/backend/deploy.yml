@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontendtest
+  namespace: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: frontendtest
+  template:
+    metadata:
+      labels:
+          app: frontendtest
+    spec:
+      containers:
+      - name: frontendtest
+        image: nginx:latest
+        ports:
+        - containerPort: 80

@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backendtest
+  namespace: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: backendtest
+  template:
+    metadata:
+      labels:
+        app: backendtest
+    spec:
+      containers:
+      - name: backendtest
+        image: nginx:latest
+        ports:
+        - containerPort: 80

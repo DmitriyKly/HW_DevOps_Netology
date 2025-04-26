@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cachetest
+  namespace: app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cachetest
+  template:
+    metadata:
+      labels:
+          app: cachetest
+    spec:
+      containers:
+      - name: cachetest
+        image: nginx:latest
+        ports:
+        - containerPort: 80

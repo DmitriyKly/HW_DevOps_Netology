@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-test-update
+spec:
+  replicas: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  selector:
+    matchLabels:
+      app: nginx-test-update
+  template:
+    metadata:
+      labels:
+        app: nginx-test-update
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:1.19
+          ports:
+            - containerPort: 80
+        - name: multitool
+          image: wbitt/network-multitool:latest
+          command: ["sleep", "infinity"]
+          ports:
+            - containerPort: 8080

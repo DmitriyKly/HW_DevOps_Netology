@@ -16,6 +16,7 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 ```
 2. Выявить проблему и описать.
 3. Исправить проблему, описать, что сделано.
+
 Ответ: Сервис и поды находились в разных namespace, поэтому вместо curl auth-db используем curl auth-db.data:80 ( с указанием namespace)
 
 4. Продемонстрировать, что проблема решена.

@@ -20,7 +20,7 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 
 4. Продемонстрировать, что проблема решена.
 
-
+![Task3](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/Troubleshooting/Screen/Task1.png)
 
 
 ### Правила приёма работы

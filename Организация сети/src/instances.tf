@@ -1,4 +1,4 @@
-# Публичная виртуальная машина
+
 resource "yandex_compute_instance" "public_instance" {
   name        = "public-instance"
   platform_id = "standard-v3"

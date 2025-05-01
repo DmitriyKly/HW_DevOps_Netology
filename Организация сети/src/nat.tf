@@ -1,4 +1,3 @@
-# NAT-инстанс
 resource "yandex_compute_instance" "nat_instance" {
   name        = "nat-instance"
   platform_id = "standard-v3"

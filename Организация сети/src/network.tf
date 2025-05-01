@@ -1,9 +1,9 @@
-# VPC
+
 resource "yandex_vpc_network" "vpc" {
   name = "vpc"
 }
 
-# Публичная подсеть
+
 resource "yandex_vpc_subnet" "public" {
   name           = "public"
   v4_cidr_blocks = ["192.168.10.0/24"]
@@ -11,7 +11,7 @@ resource "yandex_vpc_subnet" "public" {
   network_id     = yandex_vpc_network.vpc.id
 }
 
-# Приватная подсеть
+
 resource "yandex_vpc_subnet" "private" {
   name           = "private"
   v4_cidr_blocks = ["192.168.20.0/24"]
@@ -20,7 +20,7 @@ resource "yandex_vpc_subnet" "private" {
   route_table_id = yandex_vpc_route_table.private_route_table.id
 }
 
-# Таблица маршрутизации для приватной подсети
+
 resource "yandex_vpc_route_table" "private_route_table" {
   name       = "private-route-table"
   network_id = yandex_vpc_network.vpc.id

@@ -1,4 +1,4 @@
-### Cloud variables
+
 variable "cloud_id" {
   type        = string
   description = "Cloud ID"
@@ -17,7 +17,7 @@ variable "default_zone" {
   default     = "ru-central1-a"
 }
 
-### Network variables
+
 variable "vpc_name" {
   type        = string
   description = "VPC network name"
@@ -48,7 +48,7 @@ variable "private_subnet" {
   }
 }
 
-### Instance variables
+
 variable "nat_instance_ip" {
   type        = string
   description = "NAT instance IP address"
@@ -64,7 +64,7 @@ variable "nat_instance_image_id" {
 variable "public_instance_image_id" {
   type        = string
   description = "Public instance image ID"
-  default     = "fd8emvfmfoaordspe1jr"  # Ubuntu 22.04 LTS
+  default     = "fd8emvfmfoaordspe1jr"
 }
 
 variable "instance_resources" {

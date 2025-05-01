@@ -11,7 +11,7 @@ resource "yandex_compute_instance" "public_instance" {
 
   boot_disk {
     initialize_params {
-      image_id = "fd8emvfmfoaordspe1jr"  # Ubuntu 22.04 LTS
+      image_id = "fd8emvfmfoaordspe1jr"
     }
   }
 
@@ -25,7 +25,7 @@ resource "yandex_compute_instance" "public_instance" {
   }
 }
 
-# Приватная виртуальная машина
+
 resource "yandex_compute_instance" "private_instance" {
   name        = "private-instance"
   platform_id = "standard-v3"
@@ -38,7 +38,7 @@ resource "yandex_compute_instance" "private_instance" {
 
   boot_disk {
     initialize_params {
-      image_id = "fd8emvfmfoaordspe1jr"  # Ubuntu 22.04 LTS
+      image_id = "fd8emvfmfoaordspe1jr"
     }
   }
 

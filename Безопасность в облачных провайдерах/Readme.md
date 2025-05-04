@@ -10,13 +10,17 @@
  - создать ключ в KMS;
  - с помощью ключа зашифровать содержимое бакета, созданного ранее.
 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%D1%85/screen/KMS.png)
 
- 
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%D1%85/screen/Bucket_encrypt.png)
+
 2. (Выполняется не в Terraform)* Создать статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:
 
  - создать сертификат;
  - создать статическую страницу в Object Storage и применить сертификат HTTPS;
  - в качестве результата предоставить скриншот на страницу с сертификатом в заголовке (замочек).
+
+![Task](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/%D0%91%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C%20%D0%B2%20%D0%BE%D0%B1%D0%BB%D0%B0%D1%87%D0%BD%D1%8B%D1%85%20%D0%BF%D1%80%D0%BE%D0%B2%D0%B0%D0%B9%D0%B4%D0%B5%D1%80%D0%B0%D1%85/screen/srt.png)
 
 Полезные документы:
 

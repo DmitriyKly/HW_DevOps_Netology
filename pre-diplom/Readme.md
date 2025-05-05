@@ -7,7 +7,7 @@
 
 Ответ: Да
 
-![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/main/pre-diplom/screen/Task_1.png)
+![Task1](https://github.com/DmitriyKly/HW_DevOps_Netology/blob/GitHub_Netology_Devops/pre-diplom/doc.png)
 
 2. Нужна ли вам справка об обучении после сдачи дипломной работы? Справка выдаётся всем студентам, в том числе тем, у кого нет диплома о высшем или среднем специальном образовании.
 а) Да

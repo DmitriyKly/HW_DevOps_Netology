@@ -21,13 +21,13 @@ resource "yandex_mdb_mysql_cluster" "netology-mysql" {
   deletion_protection = true
 
   resources {
-    resource_preset_id = "b1.medium" # Intel Broadwell, 50% CPU
+    resource_preset_id = "b1.medium"
     disk_type_id      = "network-ssd"
-    disk_size         = 20 # GB
+    disk_size         = 20
   }
 
   maintenance_window {
-    type = "ANYTIME" # Произвольное время технического обслуживания
+    type = "ANYTIME"
   }
 
   backup_window_start {

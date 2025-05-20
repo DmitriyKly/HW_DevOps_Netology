@@ -1,0 +1,61 @@
+stages:
+  - build
+  - validate
+  - apply
+  - k8s
+  
+
+variables:
+  DOCKER_IMAGE: cr.yandex/crpdslgpfgaffje54a8c/my-app
+  TF_ROOT: "tf_yc"
+  K8S_ROOT: "k8s"
+
+build:
+  stage: build
+  tags:
+    - shell
+  script:
+    - cd test_app
+    - docker build -t $DOCKER_IMAGE:$CI_COMMIT_SHA -t $DOCKER_IMAGE:latest .
+    - docker push $DOCKER_IMAGE:$CI_COMMIT_SHA
+    - docker push $DOCKER_IMAGE:latest
+  only:
+    - main
+
+validate:
+  stage: validate
+  tags:
+    - shell
+  script:
+    - cd $TF_ROOT
+    - terraform init
+    - terraform validate
+  allow_failure: false
+
+apply:
+  stage: apply
+  tags:
+    - shell
+  script:
+    - cd $TF_ROOT
+    - terraform apply -auto-approve
+
+  only:
+    - main
+
+k8s:
+  stage: k8s
+  tags:
+    - shell
+  script:
+    - cd $K8S_ROOT
+    - yc managed-kubernetes cluster get-credentials netology-k8s-cluster --external --force
+    - kubectl apply -f deploy.yml
+    - kubectl apply -f service.yml
+    - kubectl apply -f ingress.yml
+    - kubectl set image deployment/test-app-deployment nginx=$DOCKER_IMAGE:latest -n default
+
+  only:
+    - main
+
+

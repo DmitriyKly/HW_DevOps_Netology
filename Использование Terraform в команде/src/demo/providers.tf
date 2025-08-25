@@ -46,6 +46,10 @@ terraform {
       source  = "yandex-cloud/yandex"
       version = "0.118.0"
     }
+      random = {
+         source  = "hashicorp/random"
+         version = "~> 3.0"
+       }
   }
 }
 
